@@ -20,5 +20,6 @@ hello-go.exe
 
 ```
 // 发送测试请求
-curl -d Test localhost:9090
+curl localhost:9090 -d Test
+curl localhost:9090/goodbye
 ```
